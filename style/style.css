@@ -1,0 +1,282 @@
+body {
+    margin: 0%;
+
+}
+
+.header {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Indie Flower', cursive;
+    background: url("/Imagenes/header.jpg") no-repeat center top;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #464646;
+}
+
+.Presentacion {
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    text-align: center;
+    padding: 0% 5%;
+}
+
+.Presentacion h1 {
+    font-size: 9vw;
+    margin: 2% 0%;
+}
+
+.Presentacion h3 {
+    font-size: 2.75vw;
+}
+
+.menu {
+    width: 100vw;
+    background-color: black;
+    font-family: 'Saira Condensed', sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;    
+    opacity: .9;
+}
+
+.menu #Menu {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.menu ul:first-child {
+    padding-left: 20vw;
+}
+
+.menu ul {
+    margin: 0% 5%;
+    font-size: 3vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;    
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 1.7vw;
+    height: 10%;
+}
+
+.menu li a:hover {
+    background-color: #111111;
+    height: 100%;
+}
+
+.contenedor {
+    height: 100vh;
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    padding-bottom: 15px;
+}
+
+.cuerpo {
+    margin: 0px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablaVacunas {
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 2.5vw;
+}
+
+.tablaVacunas table {
+    margin-left: 13%;
+}
+
+.tablaVacunas a {
+    text-decoration: none;
+    color: #669;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 1vw;
+    width: 75%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 1.2vw;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #aabcfe;
+    color: #039;
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    text-align: center;
+}
+
+tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
+
+#pfizer img {
+    width: 75px;
+    float: left;
+}
+
+#moderna img {
+    width: 75px;
+    float: left;
+}
+
+#johnson img {
+    width: 75px;
+    float: left;
+}
+
+img.alineadoTextoImagenCentro {
+    vertical-align: middle;
+}
+
+.tablaPaises {
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 2.5vw;
+}
+
+.tablaPaises table {
+    margin-left: 13%;
+}
+
+.tablaPaises td img {
+    width: 30px;
+}
+
+.tablaPaises a {
+    text-decoration: none;
+    color: #669;
+}
+
+.ListaLinks {
+    margin: 0% 13%;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.ListaLinks ol {
+    padding: 1%;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.ListaLinks ol li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 1.2vw 13.5vw;
+    text-align: center;
+    border-top: 3px gray solid;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);}
+
+.EmpresaCreadora {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.EmpresaCreadora h1 {
+    margin-top: 2vw;
+    font-size: 3vw;
+}
+
+.EmpresaCreadora h3 {
+    font-size: 2vw;
+}
+
+.EmpresaCreadora img {
+    width: 50vw;
+}
+
+.InfoVacuna {
+    text-align: justify;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.InfoVacuna h3 {
+    font-size: 1.75vw;
+    margin-bottom: 0%;
+}
+
+.InfoVacuna p {
+    font-size: 1vw;
+}
+
+.InfoVacuna p.refer {
+    margin-top: 0%;
+    font-size: 15px;
+}
+
+#main-header {
+    background: #333;
+    color: white;
+    height: 80px;
+
+    width: 100%;
+    /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0;
+    /* Posicionamos la cabecera al lado izquierdo */
+    top: 0;
+    /* Posicionamos la cabecera pegada arriba */
+    position: fixed;
+    /* Hacemos que la cabecera tenga una posición fija */
+}
+
+.tablaEstadisticas {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.tablaEstadisticas table {
+    margin-left: 13%;
+    margin-bottom: 7vw;
+}
+
+@media (max-width: 600px) {
+    .menu ul:first-child {
+        padding-left: 1.5vw;
+    }
+}
